@@ -1,0 +1,122 @@
+body{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.conte {
+    height: 101vh;
+    width: auto;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+   
+
+    ul{
+        li:hover {
+            opacity: 60%;
+        }
+
+        position: relative;
+        .hokkaido{
+            position: absolute;
+            left: 62%;
+            top: 15vh;
+            background-color: white ;
+            opacity: 0.8;
+           
+            
+        }
+        .tohoku{
+            position: absolute;
+            left: 58%;
+            top: 41vh;
+            opacity: 0.8;
+            background-color: white;
+            
+        }
+        .kanto{
+            position: absolute;
+            left: 56%;
+            top: 58vh;
+            background-color: white ;
+            opacity: 0.8;
+            
+        }
+        .hokuriku{
+            position: absolute;
+            left: 47%;
+            top: 55vh;
+            background-color: white ;
+            opacity: 0.8;
+           
+        }
+        .tokai{
+            position: absolute;
+            left: 44%;
+            top: 62vh;
+            background-color: white ;
+            opacity: 0.8;
+            
+
+        }
+        .kansai{
+            position: absolute;
+            left: 42%;
+            top: 65vh;
+            background-color: white ;
+            opacity: 0.8;
+           
+        }
+        
+        .shikoku{
+            position: absolute;
+            left: 38%;
+            top: 70vh;
+            background-color: white ;
+            opacity: 0.8;
+           
+        }
+        .kyushu{
+            position: absolute;
+            left: 33%;
+            top: 76vh;
+            background-color: white ;
+            opacity: 0.8;
+
+        }
+        .okinawa{
+            position: absolute;
+            left: 18%;
+            top: 88vh;
+            background-color: white ;
+            opacity: 0.8;
+        }
+
+        
+    }
+
+   
+
+    img {
+        width: auto;
+        height: 95vh;
+
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 5vh;
+    }
+
+  
+
+
+
+
+
+}
+
+.img01 {
+
+    background-color: rgb(196, 240, 205);
+}
