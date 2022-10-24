@@ -3,7 +3,7 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
 }
 .conte {
-    height: 101vh;
+    // height: 101vh;
     width: auto;
     background-size: auto 100%;
     background-position: center;
@@ -21,7 +21,7 @@ body{
             position: absolute;
             left: 62%;
             top: 15vh;
-            background-color: white ;
+            // background-color: white ;
             opacity: 0.8;
            
             
@@ -31,14 +31,14 @@ body{
             left: 58%;
             top: 41vh;
             opacity: 0.8;
-            background-color: white;
+            // background-color: white;
             
         }
         .kanto{
             position: absolute;
             left: 56%;
             top: 58vh;
-            background-color: white ;
+            // background-color: white ;
             opacity: 0.8;
             
         }
@@ -46,7 +46,7 @@ body{
             position: absolute;
             left: 47%;
             top: 55vh;
-            background-color: white ;
+            // background-color: white ;
             opacity: 0.8;
            
         }
@@ -54,7 +54,7 @@ body{
             position: absolute;
             left: 44%;
             top: 62vh;
-            background-color: white ;
+            // background-color: white ;
             opacity: 0.8;
             
 
@@ -63,7 +63,7 @@ body{
             position: absolute;
             left: 42%;
             top: 65vh;
-            background-color: white ;
+            // background-color: white ;
             opacity: 0.8;
            
         }
@@ -72,7 +72,7 @@ body{
             position: absolute;
             left: 38%;
             top: 70vh;
-            background-color: white ;
+            // background-color: white ;
             opacity: 0.8;
            
         }
@@ -80,7 +80,7 @@ body{
             position: absolute;
             left: 33%;
             top: 76vh;
-            background-color: white ;
+            // background-color: white ;
             opacity: 0.8;
 
         }
@@ -108,13 +108,24 @@ body{
         font-size: 5vh;
     }
 
-  
+    .city {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
-
-
-
-
+    .result-01 {
+        width: 30%;
+        img {
+            height: 60%;
+        }
+        h2 {
+            font-size: 20px;
+        }
+    }
 }
+
+
 
 .img01 {
 
